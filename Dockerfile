@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "sh", "/app/entrypoinht.sh" ]
+CMD [ "sh", "/app/entrypoint.sh" ]
